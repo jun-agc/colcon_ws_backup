@@ -1,0 +1,3 @@
+object_tracking::Tracker;lib/libobject_tracking_component.so
+line_follower::Follower;lib/libline_follower_component.so
+direction_controller::Controller;lib/libdirection_controller_component.so

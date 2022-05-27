@@ -1,0 +1,1 @@
+/home/suv-user/foxy/colcon_ws/src/raspimouse_ros2_examples/config/configure_camera.bash

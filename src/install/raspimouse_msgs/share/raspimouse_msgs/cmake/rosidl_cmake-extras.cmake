@@ -1,0 +1,1 @@
+/home/suv-user/foxy/colcon_ws/src/build/raspimouse_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

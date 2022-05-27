@@ -1,0 +1,24 @@
+[4.531s] Invoking command in '/home/suv-user/foxy/colcon_ws/src/build/odom_simulator': PYTHONPATH=/home/suv-user/foxy/colcon_ws/src/install/odom_simulator/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/suv-user/foxy/colcon_ws/src/install/odom_simulator --editable --build-directory /home/suv-user/foxy/colcon_ws/src/build/odom_simulator/build --no-deps install_data --install-dir /home/suv-user/foxy/colcon_ws/src/install/odom_simulator
+[6.033s] running develop
+[6.778s] running egg_info
+[6.779s] creating odom_simulator.egg-info
+[6.779s] writing odom_simulator.egg-info/PKG-INFO
+[6.780s] writing dependency_links to odom_simulator.egg-info/dependency_links.txt
+[6.781s] writing entry points to odom_simulator.egg-info/entry_points.txt
+[6.781s] writing requirements to odom_simulator.egg-info/requires.txt
+[6.782s] writing top-level names to odom_simulator.egg-info/top_level.txt
+[6.790s] writing manifest file 'odom_simulator.egg-info/SOURCES.txt'
+[6.981s] reading manifest file 'odom_simulator.egg-info/SOURCES.txt'
+[6.985s] writing manifest file 'odom_simulator.egg-info/SOURCES.txt'
+[7.219s] running build_ext
+[7.221s] Creating /home/suv-user/foxy/colcon_ws/src/install/odom_simulator/lib/python3.8/site-packages/site.py
+[7.232s] Creating /home/suv-user/foxy/colcon_ws/src/install/odom_simulator/lib/python3.8/site-packages/odom-simulator.egg-link (link to .)
+[7.237s] 
+[7.238s] Installed /home/suv-user/foxy/colcon_ws/src/build/odom_simulator
+[7.239s] running install_data
+[7.240s] creating /home/suv-user/foxy/colcon_ws/src/install/odom_simulator/share/ament_index
+[7.242s] creating /home/suv-user/foxy/colcon_ws/src/install/odom_simulator/share/ament_index/resource_index
+[7.243s] creating /home/suv-user/foxy/colcon_ws/src/install/odom_simulator/share/ament_index/resource_index/packages
+[7.244s] copying resource/odom_simulator -> /home/suv-user/foxy/colcon_ws/src/install/odom_simulator/share/ament_index/resource_index/packages
+[7.245s] copying package.xml -> /home/suv-user/foxy/colcon_ws/src/install/odom_simulator/share/odom_simulator
+[7.396s] Invoked command in '/home/suv-user/foxy/colcon_ws/src/build/odom_simulator' returned '0': PYTHONPATH=/home/suv-user/foxy/colcon_ws/src/install/odom_simulator/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/suv-user/foxy/colcon_ws/src/install/odom_simulator --editable --build-directory /home/suv-user/foxy/colcon_ws/src/build/odom_simulator/build --no-deps install_data --install-dir /home/suv-user/foxy/colcon_ws/src/install/odom_simulator

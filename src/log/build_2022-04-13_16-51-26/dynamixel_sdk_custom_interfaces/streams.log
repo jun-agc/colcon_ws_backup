@@ -1,0 +1,208 @@
+[0.139s] Invoking command in '/home/suv-user/foxy/colcon_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/suv-user/foxy/colcon_ws/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces
+[0.756s] -- The C compiler identification is GNU 9.3.0
+[1.473s] -- The CXX compiler identification is GNU 9.3.0
+[1.541s] -- Check for working C compiler: /usr/bin/cc
+[2.393s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.399s] -- Detecting C compiler ABI info
+[3.168s] -- Detecting C compiler ABI info - done
+[3.294s] -- Detecting C compile features
+[3.305s] -- Detecting C compile features - done
+[3.317s] -- Check for working CXX compiler: /usr/bin/c++
+[4.440s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.444s] -- Detecting CXX compiler ABI info
+[5.462s] -- Detecting CXX compiler ABI info - done
+[5.587s] -- Detecting CXX compile features
+[5.589s] -- Detecting CXX compile features - done
+[5.698s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.199s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.201s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.985s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.217s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[9.829s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.986s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[11.767s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[12.114s] -- Found FastRTPS: /opt/ros/foxy/include  
+[13.382s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.818s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[14.329s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[16.321s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[17.960s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[18.176s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[18.760s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[18.859s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[19.451s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[19.454s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[19.455s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[19.456s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[19.988s] -- Found PythonExtra: .so  
+[21.072s] -- Configuring done
+[21.582s] -- Generating done
+[21.625s] -- Build files have been written to: /home/suv-user/foxy/colcon_ws/src/build/dynamixel_sdk_custom_interfaces
+[21.694s] Invoked command in '/home/suv-user/foxy/colcon_ws/src/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/suv-user/foxy/colcon_ws/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces
+[21.715s] Invoking command in '/home/suv-user/foxy/colcon_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/suv-user/foxy/colcon_ws/src/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[22.388s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__cpp[0m
+[22.599s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[26.333s] [  2%] Built target dynamixel_sdk_custom_interfaces__cpp
+[26.560s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[31.204s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_generator_c[0m
+[31.386s] [  7%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c.o[0m
+[31.678s] [ 10%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c.o[0m
+[32.346s] [ 12%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so[0m
+[32.965s] [ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[33.156s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[36.352s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[36.586s] [ 17%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp.o[0m
+[39.844s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp.o[0m
+[43.533s] [ 23%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[43.874s] [ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[44.006s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[47.079s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c[0m
+[47.200s] [ 28%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c.o[0m
+[47.560s] [ 30%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c.o[0m
+[48.032s] [ 33%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[48.370s] [ 33%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[48.517s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[51.211s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c[0m
+[51.484s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[51.922s] [ 41%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[52.322s] [ 43%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so[0m
+[52.739s] [ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[52.854s] [ 46%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[56.966s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[57.199s] [ 48%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps/set_position__type_support.cpp.o[0m
+[61.317s] [ 51%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps/get_position__type_support.cpp.o[0m
+[66.163s] [ 53%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[67.310s] [ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[67.537s] [ 56%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[70.642s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp[0m
+[70.819s] [ 58%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[73.656s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[76.689s] [ 64%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so[0m
+[77.166s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[77.334s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[81.193s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[81.576s] [ 69%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support_c.cpp.o[0m
+[85.191s] [ 71%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support_c.cpp.o[0m
+[88.900s] [ 74%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[89.848s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[90.044s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces[0m
+[90.261s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[90.442s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__py[0m
+[90.655s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[97.829s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[98.030s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__python[0m
+[98.416s] [ 79%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__python.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c.o[0m
+[99.256s] [ 82%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__python.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c.o[0m
+[100.464s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__python.so[0m
+[101.166s] [ 84%] Built target dynamixel_sdk_custom_interfaces__python
+[101.445s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext[0m
+[101.681s] [ 87%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[102.904s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[103.376s] [ 89%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[103.570s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[103.874s] [ 92%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[104.898s] [ 94%] [32m[1mLinking CXX shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[105.581s] [ 94%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[105.750s] [35m[1mScanning dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[106.005s] [ 97%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[106.888s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[107.429s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[107.590s] Invoked command in '/home/suv-user/foxy/colcon_ws/src/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/suv-user/foxy/colcon_ws/src/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[109.479s] Invoking command in '/home/suv-user/foxy/colcon_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/suv-user/foxy/colcon_ws/src/build/dynamixel_sdk_custom_interfaces
+[109.611s] -- Install configuration: ""
+[109.613s] -- Execute custom install script
+[109.615s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces
+[109.756s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h
+[109.887s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h
+[110.069s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.h
+[110.159s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[110.225s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position.h
+[110.359s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.h
+[110.434s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h
+[110.564s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.h
+[110.661s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position.h
+[110.752s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.sh
+[110.920s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.dsv
+[111.025s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[111.201s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[111.308s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[111.429s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[111.539s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[111.689s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[111.775s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[111.827s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[111.965s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h
+[112.122s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[112.190s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[112.286s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp
+[112.411s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp
+[112.491s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp
+[112.605s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position.hpp
+[112.697s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp
+[112.772s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp
+[112.857s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp
+[112.937s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position.hpp
+[113.018s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[113.126s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[113.255s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.sh
+[113.372s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.dsv
+[113.515s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/__init__.py
+[113.702s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py
+[113.849s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py
+[113.902s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py
+[114.007s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py
+[114.140s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[114.267s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[114.406s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[114.466s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__python.so
+[114.566s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl
+[114.646s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl
+[114.829s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+[114.949s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv
+[115.073s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Request.msg
+[115.262s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Response.msg
+[115.438s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces
+[115.497s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces
+[115.663s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.sh
+[115.803s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.dsv
+[115.969s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.sh
+[116.068s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.dsv
+[116.239s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.bash
+[116.316s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.sh
+[116.514s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.zsh
+[116.659s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.dsv
+[116.750s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv
+[116.942s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/packages/dynamixel_sdk_custom_interfaces
+[117.078s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[117.145s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[117.289s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[117.404s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[117.557s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[117.613s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[117.734s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[117.845s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig.cmake
+[118.077s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig-version.cmake
+[118.241s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.xml
+[118.423s] -- Installing: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so
+[118.425s] -- Set runtime path of "/home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so" to ""
+[118.428s] -- Installing: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so
+[118.445s] -- Set runtime path of "/home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[118.445s] -- Installing: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so
+[118.446s] -- Set runtime path of "/home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so" to ""
+[118.447s] -- Installing: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[118.449s] -- Set runtime path of "/home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[118.457s] -- Installing: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so
+[118.480s] -- Set runtime path of "/home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so" to ""
+[118.867s] Compiling '/home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/__init__.py'...
+[118.915s] -- Installing: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_generator_cExport.cmake
+[118.916s] -- Installing: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[118.916s] -- Installing: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[118.917s] -- Installing: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[118.918s] -- Installing: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport.cmake
+[118.920s] -- Installing: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[118.921s] -- Installing: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_generator_cppExport.cmake
+[118.923s] -- Installing: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[118.924s] -- Installing: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[118.926s] -- Installing: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[118.929s] -- Installing: /home/suv-user/foxy/colcon_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[118.977s] Invoked command in '/home/suv-user/foxy/colcon_ws/src/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/suv-user/foxy/colcon_ws/src/build/dynamixel_sdk_custom_interfaces

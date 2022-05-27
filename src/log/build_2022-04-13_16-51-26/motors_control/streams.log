@@ -1,0 +1,25 @@
+[6.455s] Invoking command in '/home/suv-user/foxy/colcon_ws/src/build/motors_control': PYTHONPATH=/home/suv-user/foxy/colcon_ws/src/install/motors_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/suv-user/foxy/colcon_ws/src/install/motors_control --editable --build-directory /home/suv-user/foxy/colcon_ws/src/build/motors_control/build --no-deps install_data --install-dir /home/suv-user/foxy/colcon_ws/src/install/motors_control
+[7.917s] running develop
+[8.709s] running egg_info
+[8.711s] creating motors_control.egg-info
+[8.713s] writing motors_control.egg-info/PKG-INFO
+[8.715s] writing dependency_links to motors_control.egg-info/dependency_links.txt
+[8.717s] writing entry points to motors_control.egg-info/entry_points.txt
+[8.718s] writing requirements to motors_control.egg-info/requires.txt
+[8.720s] writing top-level names to motors_control.egg-info/top_level.txt
+[8.735s] writing manifest file 'motors_control.egg-info/SOURCES.txt'
+[8.919s] reading manifest file 'motors_control.egg-info/SOURCES.txt'
+[8.923s] writing manifest file 'motors_control.egg-info/SOURCES.txt'
+[9.167s] running build_ext
+[9.172s] Creating /home/suv-user/foxy/colcon_ws/src/install/motors_control/lib/python3.8/site-packages/site.py
+[9.184s] Creating /home/suv-user/foxy/colcon_ws/src/install/motors_control/lib/python3.8/site-packages/motors-control.egg-link (link to .)
+[9.189s] Installing serialcom script to /home/suv-user/foxy/colcon_ws/src/install/motors_control/lib/motors_control
+[9.196s] 
+[9.196s] Installed /home/suv-user/foxy/colcon_ws/src/build/motors_control
+[9.198s] running install_data
+[9.200s] creating /home/suv-user/foxy/colcon_ws/src/install/motors_control/share/ament_index
+[9.201s] creating /home/suv-user/foxy/colcon_ws/src/install/motors_control/share/ament_index/resource_index
+[9.202s] creating /home/suv-user/foxy/colcon_ws/src/install/motors_control/share/ament_index/resource_index/packages
+[9.204s] copying resource/motors_control -> /home/suv-user/foxy/colcon_ws/src/install/motors_control/share/ament_index/resource_index/packages
+[9.205s] copying package.xml -> /home/suv-user/foxy/colcon_ws/src/install/motors_control/share/motors_control
+[9.356s] Invoked command in '/home/suv-user/foxy/colcon_ws/src/build/motors_control' returned '0': PYTHONPATH=/home/suv-user/foxy/colcon_ws/src/install/motors_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/suv-user/foxy/colcon_ws/src/install/motors_control --editable --build-directory /home/suv-user/foxy/colcon_ws/src/build/motors_control/build --no-deps install_data --install-dir /home/suv-user/foxy/colcon_ws/src/install/motors_control

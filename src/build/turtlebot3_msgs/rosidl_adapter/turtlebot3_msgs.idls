@@ -1,0 +1,6 @@
+/home/suv-user/foxy/colcon_ws/src/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/SensorState.idl
+/home/suv-user/foxy/colcon_ws/src/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/Sound.idl
+/home/suv-user/foxy/colcon_ws/src/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/VersionInfo.idl
+/home/suv-user/foxy/colcon_ws/src/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:srv/Sound.idl
+/home/suv-user/foxy/colcon_ws/src/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:srv/Dqn.idl
+/home/suv-user/foxy/colcon_ws/src/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:action/Patrol.idl

@@ -1,0 +1,10 @@
+/home/suv-user/foxy/colcon_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/Pause.idl
+/home/suv-user/foxy/colcon_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/ClearQueue.idl
+/home/suv-user/foxy/colcon_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/ToggleInteractive.idl
+/home/suv-user/foxy/colcon_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/Clear.idl
+/home/suv-user/foxy/colcon_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/SaveMap.idl
+/home/suv-user/foxy/colcon_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/LoopClosure.idl
+/home/suv-user/foxy/colcon_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/MergeMaps.idl
+/home/suv-user/foxy/colcon_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/AddSubmap.idl
+/home/suv-user/foxy/colcon_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/DeserializePoseGraph.idl
+/home/suv-user/foxy/colcon_ws/src/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/SerializePoseGraph.idl

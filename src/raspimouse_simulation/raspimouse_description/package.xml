@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>raspimouse_description</name>
+  <version>2.0.0</version>
+  <description>The raspimouse_description package</description>
+
+  <maintainer email="shop@rt-net.jp">RT Corporation</maintainer>
+  <author email="tiryoh@gmail.com">Daisuke Sato</author>
+
+  <license>MIT</license>
+
+  <url type="website">https://github.com/rt-net/raspimouse_sim/wiki</url>
+  <url type="repository">https://github.com/rt-net/raspimouse_sim</url>
+  <url type="bugtracker">https://github.com/rt-net/raspimouse_sim/issues</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>urdf</build_depend>
+  <exec_depend>urdf</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

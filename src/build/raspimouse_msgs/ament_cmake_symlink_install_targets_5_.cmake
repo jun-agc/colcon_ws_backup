@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/suv-user/foxy/colcon_ws/src/build/raspimouse_msgs/rosidl_generator_py/raspimouse_msgs/libraspimouse_msgs__python.so" "TARGETS" "raspimouse_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

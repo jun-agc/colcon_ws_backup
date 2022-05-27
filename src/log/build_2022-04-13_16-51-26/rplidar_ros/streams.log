@@ -1,0 +1,127 @@
+[0.113s] Invoking command in '/home/suv-user/foxy/colcon_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/suv-user/foxy/colcon_ws/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suv-user/foxy/colcon_ws/src/install/rplidar_ros
+[0.750s] -- The C compiler identification is GNU 9.3.0
+[1.053s] -- The CXX compiler identification is GNU 9.3.0
+[1.107s] -- Check for working C compiler: /usr/bin/cc
+[1.442s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.452s] -- Detecting C compiler ABI info
+[1.794s] -- Detecting C compiler ABI info - done
+[1.851s] -- Detecting C compile features
+[1.854s] -- Detecting C compile features - done
+[1.871s] -- Check for working CXX compiler: /usr/bin/c++
+[2.314s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.319s] -- Detecting CXX compiler ABI info
+[2.702s] -- Detecting CXX compiler ABI info - done
+[2.757s] -- Detecting CXX compile features
+[2.761s] -- Detecting CXX compile features - done
+[2.846s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.160s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.161s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.325s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.896s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.586s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.725s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.672s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.948s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.915s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.477s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.502s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.510s] -- Looking for pthread.h
+[8.864s] -- Looking for pthread.h - found
+[8.866s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.231s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.232s] -- Looking for pthread_create in pthreads
+[9.529s] -- Looking for pthread_create in pthreads - not found
+[9.530s] -- Looking for pthread_create in pthread
+[9.878s] -- Looking for pthread_create in pthread - found
+[9.883s] -- Found Threads: TRUE  
+[11.073s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[11.730s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[12.248s] -- Configuring done
+[12.302s] -- Generating done
+[12.308s] -- Build files have been written to: /home/suv-user/foxy/colcon_ws/src/build/rplidar_ros
+[12.348s] Invoked command in '/home/suv-user/foxy/colcon_ws/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/suv-user/foxy/colcon_ws/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suv-user/foxy/colcon_ws/src/install/rplidar_ros
+[12.351s] Invoking command in '/home/suv-user/foxy/colcon_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/suv-user/foxy/colcon_ws/src/build/rplidar_ros -- -j4 -l4
+[12.582s] [35m[1mScanning dependencies of target rplidar_node[0m
+[13.000s] [ 14%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o[0m
+[30.454s] [ 28%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[31.833s] [ 42%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/hal/thread.cpp.o[0m
+[33.324s] [ 57%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[36.515s] [ 71%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[38.474s] [ 85%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[40.204s] [100%] [32m[1mLinking CXX executable rplidar_node[0m
+[41.228s] [100%] Built target rplidar_node
+[41.294s] Invoked command in '/home/suv-user/foxy/colcon_ws/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/suv-user/foxy/colcon_ws/src/build/rplidar_ros -- -j4 -l4
+[41.508s] Invoking command in '/home/suv-user/foxy/colcon_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/suv-user/foxy/colcon_ws/src/build/rplidar_ros
+[41.564s] -- Install configuration: ""
+[41.567s] -- Execute custom install script
+[41.570s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[41.621s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//launch/rplidar.launch
+[41.671s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//launch/rplidar_a3.launch
+[41.719s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//launch/rplidar_launch.py
+[41.770s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//launch/rplidar_s1.launch
+[41.818s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//launch/rplidar_s1_tcp.launch
+[41.869s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//launch/test_rplidar.launch
+[41.919s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//launch/test_rplidar_a3.launch
+[41.968s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//launch/view_rplidar.launch
+[42.013s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//launch/view_rplidar_a3.launch
+[42.061s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//launch/view_rplidar_s1.launch
+[42.106s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//launch/view_rplidar_s1_tcp.launch
+[42.158s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//rviz/rplidar.rviz
+[42.207s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/README.txt
+[42.256s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/include/rplidar.h
+[42.302s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/include/rplidar_cmd.h
+[42.351s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/include/rplidar_driver.h
+[42.397s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/include/rplidar_protocol.h
+[42.447s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/include/rptypes.h
+[42.496s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/arch_linux.h
+[42.547s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/net_serial.cpp
+[42.596s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/net_serial.h
+[42.653s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/net_socket.cpp
+[42.711s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/thread.hpp
+[42.763s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/timer.cpp
+[42.808s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/linux/timer.h
+[42.857s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/arch_macOS.h
+[42.903s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/net_serial.cpp
+[42.952s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/net_serial.h
+[42.999s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/net_socket.cpp
+[43.048s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/thread.hpp
+[43.094s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/timer.cpp
+[43.142s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/macOS/timer.h
+[43.201s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/arch_win32.h
+[43.253s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/net_serial.cpp
+[43.304s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/net_serial.h
+[43.356s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/net_socket.cpp
+[43.404s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/timer.cpp
+[43.453s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/timer.h
+[43.500s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/arch/win32/winthread.hpp
+[43.550s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/abs_rxtx.h
+[43.598s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/assert.h
+[43.650s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/byteops.h
+[43.699s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/event.h
+[43.749s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/locker.h
+[43.803s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/socket.h
+[43.854s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/thread.cpp
+[43.900s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/thread.h
+[43.950s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/types.h
+[43.996s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/hal/util.h
+[44.046s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/rplidar_driver.cpp
+[44.093s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/rplidar_driver_TCP.h
+[44.141s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/rplidar_driver_impl.h
+[44.187s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/rplidar_driver_serial.h
+[44.234s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros//sdk/src/sdkcommon.h
+[44.284s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[44.331s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[44.381s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[44.428s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[44.479s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[44.525s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[44.576s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[44.624s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[44.674s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[44.720s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[44.771s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros/package.dsv
+[44.819s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[44.870s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[44.916s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[44.966s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/rplidar_ros/share/rplidar_ros/package.xml
+[45.025s] Invoked command in '/home/suv-user/foxy/colcon_ws/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/suv-user/foxy/colcon_ws/src/build/rplidar_ros

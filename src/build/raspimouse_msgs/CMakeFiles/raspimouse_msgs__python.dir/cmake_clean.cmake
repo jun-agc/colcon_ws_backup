@@ -1,0 +1,12 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/raspimouse_msgs__python.dir/rosidl_generator_py/raspimouse_msgs/msg/_leds_s.c.o"
+  "CMakeFiles/raspimouse_msgs__python.dir/rosidl_generator_py/raspimouse_msgs/msg/_light_sensors_s.c.o"
+  "CMakeFiles/raspimouse_msgs__python.dir/rosidl_generator_py/raspimouse_msgs/msg/_switches_s.c.o"
+  "rosidl_generator_py/raspimouse_msgs/libraspimouse_msgs__python.pdb"
+  "rosidl_generator_py/raspimouse_msgs/libraspimouse_msgs__python.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/raspimouse_msgs__python.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

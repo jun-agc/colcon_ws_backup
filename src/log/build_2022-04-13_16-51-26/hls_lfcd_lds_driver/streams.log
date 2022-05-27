@@ -1,0 +1,73 @@
+[0.239s] Invoking command in '/home/suv-user/foxy/colcon_ws/src/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/suv-user/foxy/colcon_ws/src/utils/hls_lfcd_lds_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver
+[1.015s] -- The C compiler identification is GNU 9.3.0
+[1.803s] -- The CXX compiler identification is GNU 9.3.0
+[1.918s] -- Check for working C compiler: /usr/bin/cc
+[2.667s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.677s] -- Detecting C compiler ABI info
+[3.542s] -- Detecting C compiler ABI info - done
+[3.665s] -- Detecting C compile features
+[3.671s] -- Detecting C compile features - done
+[3.694s] -- Check for working CXX compiler: /usr/bin/c++
+[4.702s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.712s] -- Detecting CXX compiler ABI info
+[5.706s] -- Detecting CXX compiler ABI info - done
+[5.878s] -- Detecting CXX compile features
+[5.887s] -- Detecting CXX compile features - done
+[5.953s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.487s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.488s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.630s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.858s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[11.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.701s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[14.445s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[15.394s] -- Found FastRTPS: /opt/ros/foxy/include  
+[17.910s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.780s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[19.839s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[19.872s] -- Looking for pthread.h
+[21.197s] -- Looking for pthread.h - found
+[21.198s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[22.283s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[22.284s] -- Looking for pthread_create in pthreads
+[23.030s] -- Looking for pthread_create in pthreads - not found
+[23.032s] -- Looking for pthread_create in pthread
+[23.990s] -- Looking for pthread_create in pthread - found
+[23.996s] -- Found Threads: TRUE  
+[25.931s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[27.664s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+[28.258s] -- Configuring done
+[28.330s] -- Generating done
+[28.337s] -- Build files have been written to: /home/suv-user/foxy/colcon_ws/src/build/hls_lfcd_lds_driver
+[28.426s] Invoked command in '/home/suv-user/foxy/colcon_ws/src/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/suv-user/foxy/colcon_ws/src/utils/hls_lfcd_lds_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver
+[28.449s] Invoking command in '/home/suv-user/foxy/colcon_ws/src/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/suv-user/foxy/colcon_ws/src/build/hls_lfcd_lds_driver -- -j4 -l4
+[29.082s] [35m[1mScanning dependencies of target hlds_laser_publisher[0m
+[29.862s] [ 50%] [32mBuilding CXX object CMakeFiles/hlds_laser_publisher.dir/src/hlds_laser_publisher.cpp.o[0m
+[72.139s] [100%] [32m[1mLinking CXX executable hlds_laser_publisher[0m
+[74.173s] [100%] Built target hlds_laser_publisher
+[74.394s] Invoked command in '/home/suv-user/foxy/colcon_ws/src/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/suv-user/foxy/colcon_ws/src/build/hls_lfcd_lds_driver -- -j4 -l4
+[74.938s] Invoking command in '/home/suv-user/foxy/colcon_ws/src/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/suv-user/foxy/colcon_ws/src/build/hls_lfcd_lds_driver
+[75.079s] -- Install configuration: ""
+[75.080s] -- Execute custom install script
+[75.083s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/hlds_laser.launch.py
+[75.154s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/view_hlds_laser.launch.py
+[75.283s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/rviz/hlds_laser.rviz
+[75.361s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher
+[75.438s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/ament_index/resource_index/package_run_dependencies/hls_lfcd_lds_driver
+[75.574s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/ament_index/resource_index/parent_prefix_path/hls_lfcd_lds_driver
+[75.743s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.sh
+[75.914s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.dsv
+[76.057s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.sh
+[76.188s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.dsv
+[76.277s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.bash
+[76.471s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.sh
+[76.635s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.zsh
+[76.755s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.dsv
+[76.898s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.dsv
+[76.962s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/ament_index/resource_index/packages/hls_lfcd_lds_driver
+[77.153s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[77.212s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[77.302s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig.cmake
+[77.393s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig-version.cmake
+[77.523s] -- Symlinking: /home/suv-user/foxy/colcon_ws/src/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.xml
+[77.645s] Invoked command in '/home/suv-user/foxy/colcon_ws/src/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suv-user/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/foxy/colcon_ws/install/turtlebot3_example:/home/suv-user/foxy/colcon_ws/install/odom_simulator:/home/suv-user/foxy/colcon_ws/install/motors_control:/home/suv-user/foxy/colcon_ws/install/motor_control2:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_teleop:/home/suv-user/suv-docker/rocker_test/docker-ros2/foxy/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/suv-user/foxy/colcon_ws/src/build/hls_lfcd_lds_driver

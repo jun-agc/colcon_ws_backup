@@ -1,0 +1,3 @@
+[console_scripts]
+serialcom = motors_control.serialcom:main
+
