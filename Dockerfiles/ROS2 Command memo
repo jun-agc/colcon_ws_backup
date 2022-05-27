@@ -1,0 +1,64 @@
+
+docker build -t tiryoh/ros2:foxy .
+rocker --x11 --user --home --privileged  tiryoh/ros2:foxy
+docker exec -it #container_name bash
+
+
+colcon build --symlink-install
+cd foxy/colcon_ws && . install/setup.bash
+. install/setup.bash
+
+******************************************************************************
+# Lidar
+ros2 launch raspimouse_ros2_examples mouse_with_lidar.launch.py lidar:=rplidar
+
+# Karto SLAM
+ros2 launch raspimouse_ros2_examples slam.launch.py 
+
+# Cartograpehr (Create Map)
+[Terminal1]
+ros2 launch raspimouse_bringup robot.launch.py
+[Terminal2]
+ros2 launch raspimouse_cartographer cartographer.launch.py use_sim_time:=false
+[Terminal3]
+ros2 run nav2_map_server map_saver_cli -f map.pgm
+
+# Motor Control
+[Terminal1]
+sudo chmod 666 /dev/ttyTHS1
+ros2 run motors_control serialcom
+
+# Bring up robot
+ros2 launch raspimouse_bringup robot.launch.py
+
+# publish IMU topic
+[Terminal1]
+ros2 run rt_usb_9axisimu_driver rt_usb_9axisimu_driver
+
+[Terminal2]
+ros2 lifecycle set rt_usb_9axisimu_driver configure
+ros2 lifecycle set rt_usb_9axisimu_driver activate
+
+# publish odom topic
+[on Terminal 1]
+ros2 run raspimouse raspimouse
+
+[on Terminal 2]
+ros2 lifecycle set raspimouse configure
+ros2 lifecycle set raspimouse activate
+
+# Driving SUV by PC keyboard
+ros2 run turtlebot3_teleop teleop_keyboard
+
+#navigation2
+ros2 launch raspimouse_navigation2 navigation2.launch.py 
+
+*******************************************************************************
+ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {'x':2.0,'y':0.0,'z':0.0}, angular:{'x':0.0,'y':0.0,'z':1.0}}"
+
+UART TX : No.8  -> No.16 ESP32
+UART RX : No.10 -> No.17 ESP32
+
+ros2 run tf2_tools view_frames.py
+
+
