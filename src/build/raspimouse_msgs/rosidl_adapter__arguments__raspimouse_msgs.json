@@ -1,8 +1,0 @@
-{
-  "package_name": "raspimouse_msgs",
-  "non_idl_tuples": [
-    "/home/suv-user/foxy/colcon_ws/src/raspimouse2/raspimouse_msgs:msg/Leds.msg",
-    "/home/suv-user/foxy/colcon_ws/src/raspimouse2/raspimouse_msgs:msg/Switches.msg",
-    "/home/suv-user/foxy/colcon_ws/src/raspimouse2/raspimouse_msgs:msg/LightSensors.msg"
-  ]
-}

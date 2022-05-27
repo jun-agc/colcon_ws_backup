@@ -1,1 +1,0 @@
-/home/suv-user/foxy/colcon_ws/src/raspimouse2/raspimouse/include/raspimouse/raspimouse_component.hpp

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/suv-user/foxy/colcon_ws/src/build/slam_toolbox/rosidl_generator_py/slam_toolbox/libslam_toolbox__python.so" "TARGETS" "slam_toolbox__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,5 +1,0 @@
-/home/suv-user/foxy/colcon_ws/src/install/raspimouse_ros2_examples/lib/libobject_tracking_component.so
-/home/suv-user/foxy/colcon_ws/src/install/raspimouse_ros2_examples/lib/libline_follower_component.so
-/home/suv-user/foxy/colcon_ws/src/install/raspimouse_ros2_examples/lib/libdirection_controller_component.so
-/home/suv-user/foxy/colcon_ws/src/install/raspimouse_ros2_examples/share/raspimouse_ros2_examples/cmake/export_raspimouse_ros2_examplesExport.cmake
-/home/suv-user/foxy/colcon_ws/src/install/raspimouse_ros2_examples/share/raspimouse_ros2_examples/cmake/export_raspimouse_ros2_examplesExport-noconfig.cmake

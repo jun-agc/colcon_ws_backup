@@ -1,1 +1,0 @@
-/home/suv-user/foxy/colcon_ws/src/raspimouse_ros2_examples/include/raspimouse_ros2_examples/object_tracking_component.hpp

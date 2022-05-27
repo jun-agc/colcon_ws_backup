@@ -1,1 +1,0 @@
-/home/suv-user/foxy/colcon_ws/src/build/slam_toolbox/lib/karto_sdk/ament_cmake_core/karto_sdkConfig-version.cmake

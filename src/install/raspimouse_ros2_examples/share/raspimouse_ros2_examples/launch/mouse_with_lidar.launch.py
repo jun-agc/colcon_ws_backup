@@ -1,1 +1,0 @@
-/home/suv-user/foxy/colcon_ws/src/raspimouse_ros2_examples/launch/mouse_with_lidar.launch.py
